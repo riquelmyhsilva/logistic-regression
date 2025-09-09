@@ -1,5 +1,15 @@
 # ISLR :: Smarket
 
+install.packages("ISLR")
+install.packages("ISLR2")
+install.packages("caret")
+install.packages("pROC")
+
+library("ISLR")
+library("ISLR2")
+library("caret")
+library("pROC")
+
 df_smarket <- ISLR::Smarket
 names(df_smarket)
 
